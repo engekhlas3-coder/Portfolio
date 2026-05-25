@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menna Zain - Magical Space</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="menna.css">
+</head>
+<body>
+
+    <canvas id="spaceCanvas"></canvas>
+
+    <header>
+        <button id="menuBtn" class="menu-trigger">☰</button>
+    </header>
+
+    <nav id="sidebar" class="sidebar">
+        <button id="closeBtn" class="close-trigger">×</button>
+        <ul>
+            <li><a href="#uiux">UI/UX Designs</a></li>
+            <li><a href="#occasion">Occasion Designs</a></li>
+            <li><a href="#uncategorized">Uncategorized Works</a></li>
+            <li><a href="#unconventional">Unconventional Designs</a></li>
+            <li><a href="#poster">Poster Art</a></li>
+            <li><a href="#myspace">My Space</a></li>
+            <li><a href="mailto:your.email@example.com" class="email-link"><i class="fas fa-envelope"></i> Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <main class="profile-container">
+        <div class="profile-card">
+            
+            <div class="avatar-container-3d">
+                <div class="avatar-flip-card">
+                    <div class="avatar-front">
+                        <img src="your-image.jpg" alt="Menna Zain" class="avatar">
+                    </div>
+                    <div class="avatar-back">
+                        <div id="qrcode"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <h1 class="profile-name">Menna Zain</h1>
+            
+            <div class="social-icons">
+                <a href="https://wa.me/201097046876" target="_blank" class="icon-link"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.facebook.com/share/18XGGcPbPB/" target="_blank" class="icon-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://t.me/menna_95_0" target="_blank" class="icon-link"><i class="fab fa-telegram-plane"></i></a>
+                <a href="https://pin.it/4Zbdxfim8" target="_blank" class="icon-link"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+            
+            <p class="bio">"My private space, a space for creativity."</p>
+        </div>
+    </main>
+
+    <div class="bottom-ghost-container">
+        <div class="moon-element"></div>
+        <div class="string-element"></div>
+        <div class="ghost-element">
+            <div class="eyes-closed"></div>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-layout">
+            <p class="copyright-line">© 2026 جميع الحقوق محفوظة</p>
+            
+            <div class="developer-sub-line">
+                <span>Web developed by <strong class="dev-name">eng.ekhlas</strong></span>
+                <a href="https://wa.me/201010162177" target="_blank" class="footer-whatsapp-icon" title="Contact Developer">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="mena.js"></script>
+</body>
+</html>
